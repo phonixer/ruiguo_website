@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "RuiGuo Zhong"
+title                    : "Your Name / Site Title"
 title_separator          : "-"
-name                     : &name "You1r Name"
+name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://phonixer.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "ruiguozhong/ruiguozhong.github.io"
+repository               : "academicpages/academicpages.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "phonixer"
+  github           : "academicpages"
   google_plus      :
   keybase          :
   instagram        :
@@ -113,7 +113,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  bilibili         :https://space.bilibili.com/37206502
+  youtube          :
   wikipedia        :
 
 
