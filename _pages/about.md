@@ -9,6 +9,8 @@ redirect_from:
 ---
 
 
+Biography
+======
 Rui guo Zhong is 2rd-year Master student in School of Electronics and Information, Northwestern Polytechnical University. He is supervised by Prof. [XiaoguangGao
 ](https://teacher.nwpu.edu.cn/gaoxiaoguang.html)
 Education
