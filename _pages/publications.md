@@ -4,7 +4,6 @@ title: "publications"
 author_profile: true
 redirect_from: 
   - /publications/
-  - /publications.html
 ---
 
 
@@ -18,6 +17,3 @@ Gao, X., Wang H, Wang Z., Zhong R., et al. (2022).Knowledge-Based System, IF=8.1
 ## Patents
 ### An Efficiency Analysis Method for Target Recognition Based on Expert Experience and Bayesian Network
 Gao, X., Zhong R., et al. CN114722899A.
-
-
-
