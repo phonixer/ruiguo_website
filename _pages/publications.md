@@ -1,8 +1,11 @@
+
 ---
-permalink: /publications/
+layout: archive
 title: "Publications"
-excerpt: "About me"
+permalink: /publications/
+author_profile: true
 ---
+
 
 ## UAV Swarm Performance Evaluation Based on Bayesian Network Combined with AHP and SOBOL
 *Chinese Journal of aeronautic* If 4 (major revision)
