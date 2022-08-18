@@ -7,6 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+![1](https://user-images.githubusercontent.com/35895359/185299190-01d71681-f0db-4004-a6cd-9f811114a4be.jpg)
 
 
 Biography
@@ -15,10 +16,24 @@ Rui guo Zhong is a 2rd-year Master student in School of Electronics and Informat
 ](https://teacher.nwpu.edu.cn/gaoxiaoguang.html)
 Education
 ======
+* SEPT. 2020 - PRESENT
+
+  - Master
+  - School of Electronics and Information (entrance exam-free recommendation)
+  - Northwestern Polytechnical University
+
+* SEPT. 2020 - PRESENT
+
+  - Master
+  - School of Electronics and Information (entrance exam-free recommendation)
+  - Moscow Aviation Institute
+  
+  
 * SEPT. 2016 - JUN. 2020
 
   - Bachelor of Engineering
-  - 
+  - School of Electronics and Information
+  - Northwestern Polytechnical University
 
 Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
