@@ -31,20 +31,29 @@ The 7th China Graduate Smart City Technology and Creative Design Competition, Th
 ## 2019届数模美赛 M奖（一等奖）2019（国际级） 队长
 American College Students Mathematical Contest in Modeling, First Prize
 * 主要工作（Main work）：
-  - 预测鸦片类药物在美国不同地区的发展趋势
-  - 使用广度回归算法，竞争-协作模型，灰度预测，协同建立预测模型
+  - 预测鸦片类药物在美国不同地区的发展趋势。
+    To predict the development trends of opioids in different regions of the United States.
+  - 使用广度回归算法，竞争-协作模型，灰度预测，协同建立预测模型。
+  Using the competition - cooperation model, gray prediction, is used to build the prediction model.
+  - 使用Google地图Api绘制扩散示意图。
+  Map diffusion using the Google Maps Api.
+
 
 ## 高教杯全国大学生数学建模大赛 （省一）2018 （省级） 编程队员
 Shaanxi Province in the National Mathematical Contest in Modeling for College Students， First prize of Shaanxi Province.
-* 主要内容：
+* 主要工作（Main work）:
   - 设计防热服，评估不同材料在5层隔热材料下的热量传递效果。
+  Design thermal protection clothing and evaluate the heat transfer effect of different materials under 5 layers of insulation material.
   - 使用热力学微分方程，利用matlab进行变边界的数值求解。
+  The variable boundary is solved numerically by using the thermodynamic differential equation and MATLAB.
 
 ## 全国大学生互联网+创新创业大赛 （校二） 2018 （校级） 队员
 China College Students’ ‘Internet Plus’ Innovation and Entrepreneurship， School-level second prize
 
-* 主要工作：
+* 主要工作(Main work)：
   - 使用EEG检测驾驶员疲劳程度
+  EEG was used to detect driver fatigue
   - 利用svm，DNN进行模式识别
+  SVM and DNN are used for pattern recognition
 
 
