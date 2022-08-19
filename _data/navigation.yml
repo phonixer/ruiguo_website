@@ -6,17 +6,6 @@ main:
   - title: "Competition"
     url: /Competition/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "Scholarship"
+    url: /Scholarship/    
     
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
