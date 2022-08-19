@@ -8,9 +8,13 @@ redirect_from:
 
 ## “华为杯”第十八届中国研究生数学建模竞赛 一等奖 + 数模之星提名 2022 (国家级）队长
 "Huawei Cup" the 18th China Graduate Student Mathematical Contest in Modeling, First prize + Mathematical Modeling star nomination
+
 * 主要工作：使用数学模型与集成学习相结合提高污染物浓度预测准确率。
+
 Main work: Using mathematical model and ensemble learning to improve the accuracy of pollutant concentration prediction
+
 * 收获：获得一等奖，并获得数模之星提名(12/17692)
+
 Achievements: Won the first prize and was nominated as the Mathematical Modeling star (12/17692)
 
 
@@ -18,12 +22,16 @@ Achievements: Won the first prize and was nominated as the Mathematical Modeling
 The 7th China Graduate Smart City Technology and Creative Design Competition, Third prize
 * 主要工作（Main work）：
   - 建立数据集：使用UE4搭建场景，利用AE辅助标注数据集。
+  
   Data set establishment: UE4 was used to construct the scene, and AE was used to annotate the data set
   - 建立卷积lstm网络对目标轨迹进行跟踪。
+  
   The convolutional LSTM network is established to track the target trajectory.
   - 使用改进的sort算法对目标进行跟踪。
+  
   The modified SORT algorithm is used to track the target.
   - 与现有的常见网络进行对比。
+  
   Compare with existing common networks. 
     
 
@@ -32,10 +40,13 @@ The 7th China Graduate Smart City Technology and Creative Design Competition, Th
 American College Students Mathematical Contest in Modeling, First Prize
 * 主要工作（Main work）：
   - 预测鸦片类药物在美国不同地区的发展趋势。
+    
     To predict the development trends of opioids in different regions of the United States.
   - 使用广度回归算法，竞争-协作模型，灰度预测，协同建立预测模型。
+  
   Using the competition - cooperation model, gray prediction, is used to build the prediction model.
   - 使用Google地图Api绘制扩散示意图。
+  
   Map diffusion using the Google Maps Api.
 
 
@@ -43,8 +54,10 @@ American College Students Mathematical Contest in Modeling, First Prize
 Shaanxi Province in the National Mathematical Contest in Modeling for College Students， First prize of Shaanxi Province.
 * 主要工作（Main work）:
   - 设计防热服，评估不同材料在5层隔热材料下的热量传递效果。
+  
   Design thermal protection clothing and evaluate the heat transfer effect of different materials under 5 layers of insulation material.
   - 使用热力学微分方程，利用matlab进行变边界的数值求解。
+  
   The variable boundary is solved numerically by using the thermodynamic differential equation and MATLAB.
 
 ## 全国大学生互联网+创新创业大赛 （校二） 2018 （校级） 队员
@@ -52,8 +65,10 @@ China College Students’ ‘Internet Plus’ Innovation and Entrepreneurship，
 
 * 主要工作(Main work)：
   - 使用EEG检测驾驶员疲劳程度
+  
   EEG was used to detect driver fatigue
   - 利用svm，DNN进行模式识别
+  
   SVM and DNN are used for pattern recognition
 
 
