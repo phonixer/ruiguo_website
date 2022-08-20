@@ -25,7 +25,6 @@ Education
   - Northwestern Polytechnical University
 
 * SEPT. 2020 - JUN. 2022
-School: Institute of Robotic and Intelligent Systems
   
   - Honors degree
   - Received funding from China Scholarship Council
