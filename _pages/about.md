@@ -21,6 +21,7 @@ Education
 * SEPT. 2020 - PRESENT
 
   - Master
+  - Control Science and Engineering
   - School of Electronics and Information (entrance exam-free recommendation)
   - Northwestern Polytechnical University
 
