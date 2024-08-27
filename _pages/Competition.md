@@ -10,7 +10,7 @@ redirect_from:
 
 
 <img src='[https://user-images.githubusercontent.com/35895359/185572769-4e6ef4e3-03ff-4217-9eba-066cf478ecb5.jpg](https://github.com/phonixer/ruiguo_website/blob/master/images/NIPS%20NO%201%20rank.png)' height="45%" width="45%" style='
-border-radius:3px; box-shadow:rgba(0,0,0,0.15) 0 0 8px;background:#FBFBFB;border:1px solid #ddd;margin:10px auto;margin-left: 15px;padding:5px;
+border-radius:3px; box-shadow:rgba(0,0,0,0.15) 0 0 8px;background:#FBFBFB;border:1px solid #ddd;margin:10px auto;margin-left: 15px;padding:5px;'/> 
 
 
 ## “华为杯”第十八届中国研究生数学建模竞赛 一等奖 + 数模之星提名 2022 （国家级）队长
