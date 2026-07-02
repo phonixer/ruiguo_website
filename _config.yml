@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "RuiguoZhong "
+title                    : "Ruiguo Zhong"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://ruiguoz.github.io/ruiguo_website # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "phonixer/ruiguo_website"
+name                     : &name "Ruiguo Zhong"
+description              : &description "Ph.D. student in Intelligent Transportation at HKUST(GZ), working on generative world models and motion planning for autonomous driving."
+url                      : "https://ruiguoz.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/ruiguo_website" # the subpath of your site, e.g. "/blog"
+repository               : "ruiguoz/ruiguo_website"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Ruiguo Zhong"
   avatar           : "2.png"
-  bio              : "Northwestern Polytechnical University (China 985&211)"
-  location         : 
+  bio              : "Ph.D. student at HKUST(GZ) | Autonomous Driving | Generative Planning | World Models"
+  location         : "Guangzhou, China"
   employer         :
   pubmed           : 
   googlescholar    : 
-  email            : "zhongruiguo@mail.nwpu.edu.cn"
+  email            : "rzhong151@connect.hkust-gz.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "phonixer"
+  github           : "ruiguoz"
   google_plus      :
   keybase          :
   instagram        :

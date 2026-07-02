@@ -1,46 +1,73 @@
 ---
-permalink: /Projects/
+permalink: /projects/
 title: "Projects"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /Projects
+  - /Projects/
 ---
 
-## Establishment and Sensitivity Analysis of Cluster Collaborative Air Combat Indicator System Based on Bayesian Network （2020.04-2021.01） Student Leader
-**Project Source**: AVIC Shenyang Aircraft Design Institute
+## Predictive Future Tokens for Planning / JEPA World Model
+**Leapmotor, 2026.05 - 2026.08. First author**
 
-**Project Objectives**: 
-1. Model the cluster cooperative air combat index system
-2. Use simulation data to train it to get network parameters
-3. Perform precision analysis
-4. Get the ranking of factors affecting air combat.
+This project studies JEPA-style world modeling for autonomous driving. The goal is to adapt V-JEPA2.1 to multi-view driving scenes while preserving its general visual representations, then use predicted future latent tokens to improve trajectory scoring and planning.
 
-**Specific Work**: We use the combination of Viso and Matlab to draw a Bayesian network with 500+ nodes, and use python to call pandas to write a program to convert the table into an adjacency matrix. Using pyqt5, we use multi-threading to achieve precision analysis functions. Afterwards, in order to improve the efficiency, MFC is used to make the interface and implement the algorithm. Finally, we write the experimental report and complete the project report.
+* Fine-tuned the V-JEPA2.1 encoder with LoRA for autonomous-driving perception and temporal dynamics.
+* Designed latent future prediction modules for road structure, dynamic agents, and ego-agent interactions.
+* Integrated predicted future representations into a trajectory scorer for risk-aware candidate selection.
 
-## Method and implementation of collaborative intelligent control based on brain-computer interface （2018.07-2019.05） Student Leader
+## Diffusion in Corridor for Safe Motion Planning
+**HKUST(GZ), 2025.09 - 2026.03. First author**
 
-**Project Source**: National Key Discipline Laboratory "Neural Information Processing Laboratory" (Leader: Songyun Xie)
+This work addresses the tendency of unconstrained diffusion planners to violate drivable-area boundaries in narrow roads, sharp turns, and other highly constrained scenes.
 
-**Project Objectives**: The current brain-computer interface has problems such as low recognition rate and poor universality. This project aims to study the multi-person collaborative control algorithm, and multiple experimenters issue the same instructions, so as to improve the recognition accuracy and improve the universality and system stability.
-Specific Work: I coordinate a team of 5 people. The task is divided into algorithm modeling part, algorithm implementation part, brain p300 wave part, and data labeling part. We use Matlab to write a support vector machine classifier (svm) and a BP neural network to classify brain waves. Next, we call the interface to control the car, and control the four-degree-of-freedom movement of the car through the wifi connection.
+* Built topological route corridors from lane graphs and extended them with predicted dynamic-agent occupancy.
+* Developed corridor-guided diffusion with inpainting-style repair to regenerate invalid trajectory segments.
+* Designed differentiable energy-field and forward-simulator guidance with LQR tracking to align planned references with executable trajectories.
 
-## 基于贝叶斯网络的集群协同空战指标体系的建立及敏感性分析 （2020.04-2021.08） 学生负责人
+## CoPlanner: Contingency-Aware Diffusion Planning
+**HKUST(GZ), 2025.03 - 2025.09. First author**
 
-**项目来源**：中航沈阳飞机设计院
+CoPlanner is a generative joint prediction-and-planning framework for interactive autonomous driving under multimodal uncertainty.
 
-**项目目标**：
-1. 集群协同空战指标体系建模。
-2. 使用模拟数据对其进行训练，得到网络参数。
-3. 进行精度分析。
-4. 获取影响空战的因素排名。
+* Introduced an inpainting mechanism that anchors short-term safe shared segments and generates diverse long-horizon contingency branches.
+* Designed multi-scenario contingency scoring to balance safety, efficiency, and comfort across possible traffic futures.
+* Evaluated the planner on nuPlan Val14/Test14, with strong closed-loop performance and reduced long-tail collision risk.
 
-**主要工作**：通过构建500+个因素的集群协同空战指标体系，结合Viso和Matlab绘图，运用Python实现表格与邻接矩阵相互转换的功能，运用Pyqt5及多线程技术实现敏感性分析功能。通过C++实现算法，提高计算效率。完成实验报告与项目报告，提出新的复杂系统下的敏感性分析方法，完成专利1项和论文1篇，目前专利已公开。完成项目后获得了二期项目。
+## LUNA-AD: Lightweight Uncertainty-Aware Decision-Making
+**HKUST(GZ), 2025.06 - 2026.02. Co-author**
 
+LUNA-AD explores confidence-aware language-model decision making for autonomous driving with low latency and limited memory overhead.
 
-## 基于脑机接口的协同智能控制方法与实现 （2018.07-2019.05） 学生负责人
+* Built a multi-agent confidence-aware workflow using action voting, confidence estimation, and summary aggregation.
+* Distilled teacher reasoning from DeepSeek-V3 and DeepSeek-R1 into a lightweight Qwen3-1.7B student with 4-bit quantization and LoRA.
+* Integrated RAG and reflection-driven lifelong learning with nuPlan closed-loop failure capture.
 
-**项目来源**：国家重点学科实验室“神经信息处理实验室”（负责人：谢松云）
+## VLA Model for Parking Scenarios
+**Huawei 2012 Laboratories, 2025.09 - 2026.05. Project member**
 
-**项目目标**：针对目前脑机接口存在的识别率低、通用性差等问题，本项目通过研究多人协同控制算法，提高识别精度，提高通用性和系统稳定性。
+This project builds an end-to-end vision-language-action model for parking scenarios, targeting interpretable decision reasoning and safe trajectory planning.
 
-**主要工作**：负责协调团队（共5人）工作。任务分为：算法建模模块、算法实现模块、脑P300波检测模块、数据标模块。运用Matlab编写支持向量机分类器（SVM）和深度神经网络对脑电波进行分类，并对比分析。获得控制信号，通过WIFI连接控制小车的四自由度运动。获得国家级大创优秀结题，互联网+校赛二等奖。
+* Constructed instruction-tuning data from real driving trajectories and visual-question-answering tasks.
+* Developed multi-task VLA models for multimodal scene understanding, decision reasoning, target-point generation, and trajectory planning.
+* Supported staged model training, open-loop evaluation, and closed-loop simulation tests.
+
+## Neural Operators for Stop-and-Go Traffic
+**HKUST(GZ), 2023.05 - 2024.05. Co-author**
+
+This research uses neural operators and physics-informed learning to accelerate boundary-control synthesis for macroscopic traffic-flow PDE systems.
+
+* Approximated backstepping control kernels with neural operators and embedded them into analytic feedback controllers.
+* Learned mappings from traffic-system parameters to closed-loop boundary controls without retraining for new initial conditions.
+* Achieved approximately 300x computational acceleration over the backstepping baseline with small accuracy loss.
+
+## Early Projects
+### UAV Swarm Establishment and Factor Analysis
+**Northwestern Polytechnical University / AVIC Shenyang Aircraft Design Institute, 2020.07 - 2021.05. Student leader**
+
+Built an AirSim-based UAV simulation platform and developed sensitivity-analysis tools with PyQt5, multithreading, Python data processing, and C++ acceleration. The project produced a patent and follow-up research on Bayesian-network-based complex-system analysis.
+
+### Collaborative Intelligent Control Based on Brain-Computer Interface
+**National Key Discipline Laboratory of Neural Information Processing, 2018.07 - 2019.05. Project leader**
+
+Developed a complete EEG-based closed-loop control system from signal acquisition and feature extraction to SVM/DNN recognition and vehicle control. The project received an excellent final evaluation in the national undergraduate innovation program.
