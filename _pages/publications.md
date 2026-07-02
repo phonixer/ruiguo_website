@@ -1,15 +1,15 @@
 ---
 permalink: /publications/
-title: "Publications"
+title: "论文"
 author_profile: true
 redirect_from:
   - /publications
 ---
 
-Selected Publications
+代表性论文
 ===
 
-Journal Papers
+期刊论文
 ---
 ### Behavioral Uncertainty-Aware Attention Allocation via VLMs for Interactive Autonomous Driving
 B. Ma, H. Liu, **Ruiguo Zhong**, et al.  
@@ -31,7 +31,7 @@ Y. Zhang, **Ruiguo Zhong**, H. Yu.
 H. Wang, Z. Wang, **Ruiguo Zhong**, et al.  
 *Cognitive Computation*, 2024.
 
-Conference Papers
+会议论文
 ---
 ### CoPlanner: An Interactive Motion Planner with Contingency-Aware Diffusion for Autonomous Driving
 **Ruiguo Zhong**, et al.  
@@ -53,22 +53,22 @@ H. Jia, R. Yao, **Ruiguo Zhong**, et al.
 Y. Zhang, **Ruiguo Zhong**, H. Yu.  
 *Learning for Dynamics and Control Conference (L4DC)*, 2024.
 
-Preprints and Under Review
+预印本与在投论文
 ---
 ### Diffusion in Corridor: Safe Trajectory Generation with Differentiable Forward Simulator for Autonomous Driving
 **Ruiguo Zhong**, et al.  
-Submitted to *IEEE Transactions on Vehicular Technology (TVT)*, 2026.
+投稿至 *IEEE Transactions on Vehicular Technology (TVT)*, 2026.
 
 ### LUNA-AD: Lightweight Uncertainty-Aware Language Model with Lifelong Learning for Autonomous Driving
 R. Yao, P. Liu, **Ruiguo Zhong**, et al.  
-Submitted to *IEEE Transactions on Vehicular Technology (TVT)*, 2026.
+投稿至 *IEEE Transactions on Vehicular Technology (TVT)*, 2026.
 
 ### Resilient Formation Control for Vehicle Platoons Against Cyberattacks and Uncertainties
 X. Chen, **Ruiguo Zhong**, et al.  
-Submitted to *International Conference on Control and Automation (ICCA)*, 2026.
+投稿至 *International Conference on Control and Automation (ICCA)*, 2026.
 
-Patents
+专利
 ---
-### An Efficiency Analysis Method for Target Recognition Based on Expert Experience and Bayesian Network
-X. Gao, **Ruiguo Zhong**, et al.  
-Chinese invention patent, CN202210215066.7.
+### 一种基于专家经验与贝叶斯网络的敌我目标识别效能分析方法
+高晓光，**钟瑞国** 等。  
+中国发明专利，CN202210215066.7。

@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Ruiguo Zhong"
 title_separator          : "-"
 name                     : &name "Ruiguo Zhong"
-description              : &description "Ph.D. student in Intelligent Transportation at HKUST(GZ), working on generative world models and motion planning for autonomous driving."
+description              : &description "香港科技大学（广州）智能交通方向博士生，研究自动驾驶中的生成式世界模型与运动规划。"
 url                      : "https://ruiguoz.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/ruiguo_website" # the subpath of your site, e.g. "/blog"
 repository               : "ruiguoz/ruiguo_website"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Ruiguo Zhong"
   avatar           : "2.png"
-  bio              : "Ph.D. student at HKUST(GZ) | Autonomous Driving | Generative Planning | World Models"
-  location         : "Guangzhou, China"
+  bio              : "香港科技大学（广州）博士生 | 自动驾驶 | 生成式规划 | 世界模型"
+  location         : "中国广州"
   employer         :
   pubmed           : 
   googlescholar    : 

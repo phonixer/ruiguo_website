@@ -1,73 +1,73 @@
 ---
 permalink: /projects/
-title: "Projects"
+title: "项目"
 author_profile: true
 redirect_from:
   - /Projects
   - /Projects/
 ---
 
-## Predictive Future Tokens for Planning / JEPA World Model
-**Leapmotor, 2026.05 - 2026.08. First author**
+## 面向规划的未来 Token 预测 / JEPA 世界模型
+**零跑汽车，2026.05 - 2026.08，第一作者**
 
-This project studies JEPA-style world modeling for autonomous driving. The goal is to adapt V-JEPA2.1 to multi-view driving scenes while preserving its general visual representations, then use predicted future latent tokens to improve trajectory scoring and planning.
+该项目研究面向自动驾驶场景的 JEPA 世界模型，在保持 V-JEPA2.1 通用视觉表征能力的基础上，增强模型对驾驶场景时序动态、未来状态演化与规划相关语义的建模能力，并探索隐空间表征在轨迹评估与选择中的应用。
 
-* Fine-tuned the V-JEPA2.1 encoder with LoRA for autonomous-driving perception and temporal dynamics.
-* Designed latent future prediction modules for road structure, dynamic agents, and ego-agent interactions.
-* Integrated predicted future representations into a trajectory scorer for risk-aware candidate selection.
+* 基于 LoRA 对 V-JEPA2.1 编码器进行参数高效微调，使模型更好适配自动驾驶多视角感知与复杂交通场景。
+* 设计未来隐空间预测模块，在当前视觉表征基础上预测未来 latent token，建模道路结构、动态智能体与自车交互关系。
+* 将预测得到的未来隐空间表征引入轨迹评分器，提升候选轨迹的风险评估与优选能力。
 
-## Diffusion in Corridor for Safe Motion Planning
-**HKUST(GZ), 2025.09 - 2026.03. First author**
+## 基于走廊约束的安全扩散运动规划
+**香港科技大学（广州），2025.09 - 2026.03，第一作者**
 
-This work addresses the tendency of unconstrained diffusion planners to violate drivable-area boundaries in narrow roads, sharp turns, and other highly constrained scenes.
+该项目针对无约束扩散规划器在窄道、急弯等强约束场景下容易违反可行驶区域边界的问题，研究如何在反向去噪过程中引入几何与时空约束。
 
-* Built topological route corridors from lane graphs and extended them with predicted dynamic-agent occupancy.
-* Developed corridor-guided diffusion with inpainting-style repair to regenerate invalid trajectory segments.
-* Designed differentiable energy-field and forward-simulator guidance with LQR tracking to align planned references with executable trajectories.
+* 基于全局路由指令在车道图上构建拓扑走廊，并融合动态智能体预测占用，形成时变时空走廊。
+* 提出 corridor-guided diffusion，通过 inpainting 式修复机制重生成违反约束的轨迹片段。
+* 设计可微能量场与可微前向仿真引导，将 LQR 跟踪器嵌入去噪循环，使规划参考轨迹与可执行轨迹保持一致。
 
-## CoPlanner: Contingency-Aware Diffusion Planning
-**HKUST(GZ), 2025.03 - 2025.09. First author**
+## CoPlanner：应急感知扩散规划
+**香港科技大学（广州），2025.03 - 2025.09，第一作者**
 
-CoPlanner is a generative joint prediction-and-planning framework for interactive autonomous driving under multimodal uncertainty.
+CoPlanner 是一个面向交互式自动驾驶的联合预测与规划生成式框架，重点解决多模态不确定环境下规划器缺乏备选路径的问题。
 
-* Introduced an inpainting mechanism that anchors short-term safe shared segments and generates diverse long-horizon contingency branches.
-* Designed multi-scenario contingency scoring to balance safety, efficiency, and comfort across possible traffic futures.
-* Evaluated the planner on nuPlan Val14/Test14, with strong closed-loop performance and reduced long-tail collision risk.
+* 引入 inpainting 机制，锚定经过安全验证的短期共享段，生成多样化长程应急分支。
+* 设计多场景应急评分算法，在多个预测演化场景下综合评估自车轨迹。
+* 在 nuPlan Val14/Test14 上进行闭环评测，显著降低长尾场景下的碰撞风险。
 
-## LUNA-AD: Lightweight Uncertainty-Aware Decision-Making
-**HKUST(GZ), 2025.06 - 2026.02. Co-author**
+## LUNA-AD：轻量化不确定性感知决策框架
+**香港科技大学（广州），2025.06 - 2026.02，论文共同作者**
 
-LUNA-AD explores confidence-aware language-model decision making for autonomous driving with low latency and limited memory overhead.
+LUNA-AD 研究面向自动驾驶的置信感知语言模型决策，在低延迟和低显存开销下完成多模态驾驶决策推理。
 
-* Built a multi-agent confidence-aware workflow using action voting, confidence estimation, and summary aggregation.
-* Distilled teacher reasoning from DeepSeek-V3 and DeepSeek-R1 into a lightweight Qwen3-1.7B student with 4-bit quantization and LoRA.
-* Integrated RAG and reflection-driven lifelong learning with nuPlan closed-loop failure capture.
+* 构建行动投票、置信评估、摘要聚合三阶段多智能体置信感知工作流。
+* 将 DeepSeek-V3 与 DeepSeek-R1 的教师推理蒸馏到轻量 Qwen3-1.7B 学生模型，并结合 4-bit 量化与 LoRA。
+* 结合 RAG 与闭环失败反思机制，实现 nuPlan 闭环仿真中的持续自适应学习。
 
-## VLA Model for Parking Scenarios
-**Huawei 2012 Laboratories, 2025.09 - 2026.05. Project member**
+## 泊车场景端到端 VLA 模型
+**华为 2012 实验室，2025.09 - 2026.05，项目参与人**
 
-This project builds an end-to-end vision-language-action model for parking scenarios, targeting interpretable decision reasoning and safe trajectory planning.
+该项目构建面向泊车场景的端到端 Vision-Language-Action 模型，实现交互情形下可解释的决策推理与安全高效的轨迹规划。
 
-* Constructed instruction-tuning data from real driving trajectories and visual-question-answering tasks.
-* Developed multi-task VLA models for multimodal scene understanding, decision reasoning, target-point generation, and trajectory planning.
-* Supported staged model training, open-loop evaluation, and closed-loop simulation tests.
+* 构建适用于 VLA 模型训练的泊车场景指令微调数据集，涵盖真实行车轨迹数据与视觉问答任务数据。
+* 研发多任务 VLA 模型，支持多模态场景理解、决策推理、目标点生成和轨迹规划任务。
+* 参与多阶段训练、开环评估与闭环仿真测试。
 
-## Neural Operators for Stop-and-Go Traffic
-**HKUST(GZ), 2023.05 - 2024.05. Co-author**
+## 利用神经算子缓解高速公路走走停停交通拥堵
+**香港科技大学（广州），2023.05 - 2024.05，论文共同作者**
 
-This research uses neural operators and physics-informed learning to accelerate boundary-control synthesis for macroscopic traffic-flow PDE systems.
+该研究利用神经算子与物理信息学习加速宏观交通流 PDE 系统的边界控制设计。
 
-* Approximated backstepping control kernels with neural operators and embedded them into analytic feedback controllers.
-* Learned mappings from traffic-system parameters to closed-loop boundary controls without retraining for new initial conditions.
-* Achieved approximately 300x computational acceleration over the backstepping baseline with small accuracy loss.
+* 使用神经算子近似反步法控制增益核函数，并嵌入解析状态反馈控制器。
+* 学习从交通系统参数到闭环边界控制律的映射，在初始条件变化时无需重新训练。
+* 相比反步法基准控制器实现约 300 倍计算加速，同时保持较小误差。
 
-## Early Projects
-### UAV Swarm Establishment and Factor Analysis
-**Northwestern Polytechnical University / AVIC Shenyang Aircraft Design Institute, 2020.07 - 2021.05. Student leader**
+## 早期项目
+### 无人机集群建立与因素分析
+**西北工业大学 / 中航沈阳飞机设计院，2020.07 - 2021.05，学生负责人**
 
-Built an AirSim-based UAV simulation platform and developed sensitivity-analysis tools with PyQt5, multithreading, Python data processing, and C++ acceleration. The project produced a patent and follow-up research on Bayesian-network-based complex-system analysis.
+基于 AirSim 建立无人机仿真平台，使用 PyQt5、多线程、Python 数据处理与 C++ 加速开发敏感性分析工具。项目产出贝叶斯网络复杂系统分析相关专利与后续研究。
 
-### Collaborative Intelligent Control Based on Brain-Computer Interface
-**National Key Discipline Laboratory of Neural Information Processing, 2018.07 - 2019.05. Project leader**
+### 基于脑机接口的协同智能控制
+**神经信息处理国家重点学科实验室，2018.07 - 2019.05，项目负责人**
 
-Developed a complete EEG-based closed-loop control system from signal acquisition and feature extraction to SVM/DNN recognition and vehicle control. The project received an excellent final evaluation in the national undergraduate innovation program.
+完成从 EEG 采集、特征提取、SVM/DNN 模式识别到小车运动控制的闭环系统开发。项目以优秀等级通过国家级大学生创新创业项目结题验收。

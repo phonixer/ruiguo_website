@@ -1,51 +1,51 @@
 ---
 permalink: /
-title: "Ruiguo Zhong"
-excerpt: "About me"
+title: "钟瑞国 Ruiguo Zhong"
+excerpt: "关于我"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-![Ruiguo Zhong](https://user-images.githubusercontent.com/35895359/185299190-01d71681-f0db-4004-a6cd-9f811114a4be.jpg)
+![钟瑞国](https://user-images.githubusercontent.com/35895359/185299190-01d71681-f0db-4004-a6cd-9f811114a4be.jpg)
 
-Biography
+个人简介
 ===
-I am a Ph.D. student in Intelligent Transportation at the Hong Kong University of Science and Technology (Guangzhou). My research focuses on generative models for autonomous driving, with an emphasis on diffusion-based motion planning, world models, uncertainty-aware decision making, and trajectory generation under safety constraints.
+我是香港科技大学（广州）智能交通方向博士生，研究兴趣集中在自动驾驶中的生成式模型，尤其是扩散模型运动规划、世界模型、不确定性感知决策以及安全约束下的轨迹生成。
 
-My recent work studies how generative planners can reason about interactive traffic futures, produce contingency-aware fallback behaviors, and respect geometric or spatio-temporal driving corridors. I also work on JEPA-style world models for autonomous driving, VLA models for parking scenarios, lightweight language-model decision frameworks, and neural-operator methods for traffic control.
+近期工作主要围绕交互式交通场景中的生成式规划展开：如何让规划器理解多种可能的未来、生成具备应急分支的 fallback 轨迹，并在几何走廊或时空走廊约束下保持可行性与安全性。此外，我也在研究面向自动驾驶的 JEPA 世界模型、泊车场景 VLA 模型、轻量化语言模型决策框架，以及用于交通控制的神经算子方法。
 
-I have collaborated with Leapmotor and Huawei on planning-oriented world models and end-to-end VLA systems. My publications and submissions cover autonomous driving planning, uncertainty-aware decision making, neural operators for traffic flow control, Bayesian modeling, and UAV swarm evaluation.
+我曾与零跑汽车、华为 2012 实验室开展合作，研究面向规划的世界模型和端到端 VLA 系统。我的研究成果覆盖自动驾驶规划、不确定性感知决策、交通流控制神经算子、贝叶斯建模和无人机集群评估等方向。
 
-Research Interests
+研究兴趣
 ===
-* Autonomous driving and intelligent transportation
-* Generative planning, diffusion models, and world models
-* Contingency-aware motion planning and safety-constrained trajectory generation
-* Vision-language-action models and uncertainty-aware decision making
-* Neural operators for traffic control
+* 自动驾驶与智能交通
+* 生成式规划、扩散模型与世界模型
+* 应急感知运动规划与安全约束轨迹生成
+* 视觉-语言-动作模型与不确定性感知决策
+* 用于交通控制的神经算子方法
 
-Education
+教育经历
 ===
-* **Ph.D. in Intelligent Transportation**, Hong Kong University of Science and Technology (Guangzhou), 2023.09 - 2027.01 expected
-  * Dissertation topic: Applications of generative models in autonomous driving
-* **M.S. in Control Science and Engineering**, Northwestern Polytechnical University, 2020.09 - 2023.07
-  * GPA: 88.13/100, ranked 2/18
-  * Thesis: Research on Bayesian networks and their applications in factor analysis
-* **M.S. in Integrated Aircraft System Design**, Moscow Aviation Institute, 2020.09 - 2023.07
-* **B.Eng. in Detection, Guidance and Control Technology**, Northwestern Polytechnical University, 2016.09 - 2020.07
+* **博士，智能交通**，香港科技大学（广州），2023.09 - 2027.01 预计毕业
+  * 毕业论文方向：生成式模型在自动驾驶中的应用
+* **硕士，控制科学与工程**，西北工业大学，2020.09 - 2023.07
+  * 均分：88.13/100，排名 2/18
+  * 毕业论文：贝叶斯网络研究及其在因子分析中的应用
+* **硕士，航空综合系统设计**，莫斯科航空学院，2020.09 - 2023.07
+* **学士，探测制导与控制技术**，西北工业大学，2016.09 - 2020.07
 
-Selected Highlights
+代表性亮点
 ===
-* First author of CoPlanner, an interactive contingency-aware diffusion planner submitted to ICRA 2026.
-* First author of corridor-guided diffusion planning works for geometrically feasible autonomous-driving motion planning.
-* Contributor to LUNA-AD, CoMoE-Planner, and VLM-based uncertainty-aware decision-making research.
-* Top results in NeurIPS 2024 Tianchi auto-bidding competitions, including 5/793 in the AIGB track and 28/731 in the general track.
-* National First Prize and Mathematical Modeling Star nomination in the 18th "Huawei Cup" China Graduate Mathematical Contest in Modeling.
+* CoPlanner 第一作者，研究面向交互式自动驾驶的应急感知扩散规划，已投稿 ICRA 2026。
+* 走廊约束扩散规划系列工作第一作者，研究自动驾驶中几何可行的轨迹生成。
+* 参与 LUNA-AD、CoMoE-Planner 和基于 VLM 的不确定性感知决策研究。
+* NeurIPS 2024 天池自动出价竞赛取得 AIGB 赛道正式赛 5/793、通用赛道决赛 28/731。
+* “华为杯”第十八届中国研究生数学建模竞赛全国一等奖与“数模之星”提名，排名 12/17692。
 
-Contact
+联系方式
 ===
-Email: [rzhong151@connect.hkust-gz.edu.cn](mailto:rzhong151@connect.hkust-gz.edu.cn)  
-GitHub: [ruiguoz](https://github.com/ruiguoz)  
-Website: [ruiguoz.github.io/ruiguo_website](https://ruiguoz.github.io/ruiguo_website/)
+邮箱：[rzhong151@connect.hkust-gz.edu.cn](mailto:rzhong151@connect.hkust-gz.edu.cn)  
+GitHub：[ruiguoz](https://github.com/ruiguoz)  
+主页：[ruiguoz.github.io/ruiguo_website](https://ruiguoz.github.io/ruiguo_website/)

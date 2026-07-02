@@ -1,33 +1,33 @@
-# Ruiguo Zhong Personal Website
+# 钟瑞国个人主页
 
-This repository hosts Ruiguo Zhong's academic homepage at:
+本仓库用于维护钟瑞国的个人学术主页：
 
 https://ruiguoz.github.io/ruiguo_website/
 
-The site is built with Jekyll and the academicpages / Minimal Mistakes theme. It includes research biography, publications, projects, awards, CV, and service information.
+网站基于 Jekyll 和 academicpages / Minimal Mistakes 主题构建，内容包括个人简介、论文、项目、获奖、简历和学术服务。
 
-## Local Preview
+## 本地预览
 
-Install Ruby dependencies and run Jekyll:
+安装 Ruby 依赖并启动 Jekyll：
 
 ```bash
 bundle install
 bundle exec jekyll serve
 ```
 
-Then open the local server shown in the terminal, usually:
+通常可在以下地址预览：
 
 ```text
 http://127.0.0.1:4000/ruiguo_website/
 ```
 
-## Main Content Files
+## 主要内容文件
 
-* `_config.yml`: site identity, repository metadata, author profile, and deployment base URL.
-* `_pages/about.md`: homepage biography and research overview.
-* `_pages/publications.md`: selected publications and submissions.
-* `_pages/Projects.md`: research and industry projects.
-* `_pages/Competition.md`: awards and competitions.
-* `_pages/cv.md`: web CV.
-* `_pages/Volunteer.md`: academic service and outreach.
-* `_data/navigation.yml`: top navigation.
+* `_config.yml`：站点身份、仓库信息、作者信息和部署路径。
+* `_pages/about.md`：主页简介与研究方向。
+* `_pages/publications.md`：论文列表。
+* `_pages/Projects.md`：科研与产业项目。
+* `_pages/Competition.md`：竞赛获奖与荣誉。
+* `_pages/cv.md`：网页版简历。
+* `_pages/Volunteer.md`：学术服务与志愿活动。
+* `_data/navigation.yml`：顶部导航栏。
