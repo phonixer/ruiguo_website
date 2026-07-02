@@ -53,6 +53,10 @@ H. Jia, R. Yao, **Ruiguo Zhong**, et al.
 Y. Zhang, **Ruiguo Zhong**, H. Yu.  
 *Learning for Dynamics and Control Conference (L4DC)*, 2024.
 
+### Resilient Formation Control for Vehicle Platoons Against Cyberattacks and Uncertainties
+X. Chen, **Ruiguo Zhong**, et al.  
+*International Conference on Control and Automation (ICCA)*, 2026.
+
 预印本与在投论文
 ---
 ### Diffusion in Corridor: Safe Trajectory Generation with Differentiable Forward Simulator for Autonomous Driving
@@ -62,10 +66,6 @@ Y. Zhang, **Ruiguo Zhong**, H. Yu.
 ### LUNA-AD: Lightweight Uncertainty-Aware Language Model with Lifelong Learning for Autonomous Driving
 R. Yao, P. Liu, **Ruiguo Zhong**, et al.  
 投稿至 *IEEE Transactions on Vehicular Technology (TVT)*, 2026.
-
-### Resilient Formation Control for Vehicle Platoons Against Cyberattacks and Uncertainties
-X. Chen, **Ruiguo Zhong**, et al.  
-投稿至 *International Conference on Control and Automation (ICCA)*, 2026.
 
 专利
 ---

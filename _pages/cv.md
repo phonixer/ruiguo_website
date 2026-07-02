@@ -39,6 +39,7 @@ redirect_from:
 * D. Chen, **R. Zhong**, et al. Dynamic High-Order Control Barrier Functions with Diffuser for Safety-Critical Trajectory Planning at Signal-Free Intersections. *IEEE Transactions on Intelligent Transportation Systems (T-ITS)*, 2025.
 * Y. Zhang, **R. Zhong**, H. Yu. Mitigating Stop-and-Go Traffic Congestion Using Neural Operators. *Transportation Research Part C: Emerging Technologies*, 2024.
 * Y. Zhang, **R. Zhong**, H. Yu. Neural Operators for Boundary Stabilization of Stop-and-Go Traffic. *Learning for Dynamics and Control Conference (L4DC)*, 2024.
+* X. Chen, **R. Zhong**, et al. Resilient Formation Control for Vehicle Platoons Against Cyberattacks and Uncertainties. *International Conference on Control and Automation (ICCA)*, 2026.
 * H. Wang, Z. Wang, **R. Zhong**. The Improved Ordering-Based Search Method Incorporating Ensemble Learning. *Cognitive Computation*, 2024.
 * **R. Zhong**, et al. Bridging Intuition and Data: A Unified Bayesian Framework for Optimizing Unmanned Aerial Vehicle Swarm Performance. *Entropy*, 2025.
 
@@ -46,7 +47,6 @@ redirect_from:
 ======
 * **R. Zhong**, et al. Diffusion in Corridor: Safe Trajectory Generation with Differentiable Forward Simulator for Autonomous Driving. 投稿至 *IEEE Transactions on Vehicular Technology (TVT)*, 2026.
 * R. Yao, P. Liu, **R. Zhong**, et al. LUNA-AD: Lightweight Uncertainty-Aware Language Model with Lifelong Learning for Autonomous Driving. 投稿至 *IEEE Transactions on Vehicular Technology (TVT)*, 2026.
-* X. Chen, **R. Zhong**, et al. Resilient Formation Control for Vehicle Platoons Against Cyberattacks and Uncertainties. 投稿至 *International Conference on Control and Automation (ICCA)*, 2026.
 
 科研与产业项目
 ======
