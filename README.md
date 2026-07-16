@@ -1,6 +1,6 @@
-# 钟瑞国个人主页
+# Ruiguo Zhong个人主页
 
-本仓库用于维护钟瑞国的个人学术主页：
+本仓库用于维护Ruiguo Zhong的个人学术主页：
 
 https://ruiguoz.github.io/ruiguo_website/
 
